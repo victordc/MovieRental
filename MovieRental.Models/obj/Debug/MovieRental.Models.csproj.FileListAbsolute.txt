@@ -1,0 +1,10 @@
+c:\users\koybi\documents\visual studio 2012\Projects\MovieRental\MovieRental.Models\bin\Debug\MovieRental.Models.dll.config
+c:\users\koybi\documents\visual studio 2012\Projects\MovieRental\MovieRental.Models\bin\Debug\MovieRental.Models.dll
+c:\users\koybi\documents\visual studio 2012\Projects\MovieRental\MovieRental.Models\bin\Debug\MovieRental.Models.pdb
+c:\users\koybi\documents\visual studio 2012\Projects\MovieRental\MovieRental.Models\bin\Debug\EntityFramework.dll
+c:\users\koybi\documents\visual studio 2012\Projects\MovieRental\MovieRental.Models\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\koybi\documents\visual studio 2012\Projects\MovieRental\MovieRental.Models\bin\Debug\EntityFramework.xml
+c:\users\koybi\documents\visual studio 2012\Projects\MovieRental\MovieRental.Models\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\koybi\documents\visual studio 2012\Projects\MovieRental\MovieRental.Models\obj\Debug\MovieRental.Models.csprojResolveAssemblyReference.cache
+c:\users\koybi\documents\visual studio 2012\Projects\MovieRental\MovieRental.Models\obj\Debug\MovieRental.Models.dll
+c:\users\koybi\documents\visual studio 2012\Projects\MovieRental\MovieRental.Models\obj\Debug\MovieRental.Models.pdb

@@ -9,7 +9,7 @@
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
-<table>
+<table style="border-spacing: 5px 5px">
     <tr>
         <th>
             @Html.DisplayNameFor(model => model.Title)
@@ -56,7 +56,8 @@
             @Html.DisplayFor(modelItem => item.Language)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Poster)
+            @*@Html.DisplayFor(modelItem => item.Poster)*@
+            <img src = "@(item.Poster)" height="200" width="150"/>
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.Plot)

@@ -8,69 +8,73 @@
 
 <fieldset>
     <legend>Movie</legend>
-
-    <div class="display-label">
+    <table style="align-items:center">
+        <tr>
+    <td class="display-label">
          @Html.DisplayNameFor(model => model.Title)
-    </div>
-    <div class="display-field">
+    </td>
+    <td class="display-field">
         @Html.DisplayFor(model => model.Title)
-    </div>
-
-    <div class="display-label">
+    </td>
+            </tr><tr>
+    <td class="display-label">
          @Html.DisplayNameFor(model => model.ReleaseYear)
-    </div>
-    <div class="display-field">
+    </td>
+    <td class="display-field">
         @Html.DisplayFor(model => model.ReleaseYear)
-    </div>
+    </td></tr>
 
-    <div class="display-label">
+    <tr><td class="display-label">
          @Html.DisplayNameFor(model => model.FilmRating)
-    </div>
-    <div class="display-field">
+    </td>
+    <td class="display-field">
         @Html.DisplayFor(model => model.FilmRating)
-    </div>
+    </td></tr>
 
-    <div class="display-label">
+    <tr><td class="display-label">
          @Html.DisplayNameFor(model => model.Language)
-    </div>
-    <div class="display-field">
+    </td>
+    <td class="display-field">
         @Html.DisplayFor(model => model.Language)
-    </div>
+    </td></tr>
 
-    <div class="display-label">
+    <tr><td class="display-label">
          @Html.DisplayNameFor(model => model.Poster)
-    </div>
-    <div class="display-field">
-        @Html.DisplayFor(model => model.Poster)
-    </div>
+    </td>
+    <td class="display-field">
+        @*@Html.DisplayFor(model => model.Poster)*@
+        <img src="@(Model.Poster)" height="200" width="150"/>
+    </td></tr>
 
-    <div class="display-label">
+    <tr><td class="display-label">
          @Html.DisplayNameFor(model => model.Plot)
-    </div>
-    <div class="display-field">
+    </td>
+    <td class="display-field">
         @Html.DisplayFor(model => model.Plot)
-    </div>
+    </td></tr>
 
-    <div class="display-label">
+    <tr><td class="display-label">
          @Html.DisplayNameFor(model => model.NoInStock)
-    </div>
-    <div class="display-field">
+    </td>
+    <td class="display-field">
         @Html.DisplayFor(model => model.NoInStock)
-    </div>
+    </td></tr>
 
-    <div class="display-label">
+    <tr><td class="display-label">
          @Html.DisplayNameFor(model => model.RentalRate)
-    </div>
-    <div class="display-field">
+    </td>
+    <td class="display-field">
         @Html.DisplayFor(model => model.RentalRate)
-    </div>
+    </td></tr>
 
-    <div class="display-label">
+    <tr><td class="display-label">
          @Html.DisplayNameFor(model => model.ImdbRating)
-    </div>
-    <div class="display-field">
+    </td>
+    <td class="display-field">
         @Html.DisplayFor(model => model.ImdbRating)
-    </div>
+    </td></tr>
+
+    </table>
 </fieldset>
 <p>
     @Html.ActionLink("Edit", "Edit", new { id=Model.MovieId }) |
